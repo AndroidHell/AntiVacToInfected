@@ -1,0 +1,14 @@
+{
+   "author": "Android Hell",
+   "content_scripts": [ {
+      "js": [ "content_script.js" ],
+      "matches": [ "*://*/*" ],
+      "run_at": "document_end"
+   } ],
+   "description": "Replaces incidents of anti-vacciantion references to zombie references'.",
+   "manifest_version": 2,
+   "name": "Anti_Vac_to_Infected",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.1"
+}
+
